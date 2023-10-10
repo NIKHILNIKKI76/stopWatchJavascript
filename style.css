@@ -1,0 +1,23 @@
+#timeDisplay{
+    text-align: center;
+    font-size: 70px;
+    color: #40c437;
+    font-family: monospace;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+.container{
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+.btn{
+    border: 2px solid white !important
+}
+#name{
+    text-align: right;
+    position: relative;
+}
