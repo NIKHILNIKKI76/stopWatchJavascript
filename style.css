@@ -1,0 +1,33 @@
+#timeDisplay{
+    text-align: center;
+    font-size: 4.3rem;
+    color: #40c437;
+    font-family: monospace;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+.container{
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+.btn{
+    border: 2px solid white !important
+}
+#name{
+    text-align: right;
+    position: relative;
+}
+@media all and (max-width : 460px) {
+    #timeDisplay{
+        font-size: 2.5rem;
+    }
+}
+@media all and (max-width : 275px) {
+    #timeDisplay{
+        font-size: 2rem;
+    }
+}
